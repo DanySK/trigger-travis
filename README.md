@@ -11,6 +11,6 @@ where:
 * `branches` is a space separated list of the branches you want to build. No branches listed, no build triggered. What you probably want to do is to write in there something like `master` or `master develop`, depending on wether or not you are using git flow.
 
 ## Execution
-* Make sure you configured `trigger_toikens` appropriately
+* Make sure you configured `trigger_tokens` appropriately
 * Make sure `trigger_tokens` is in the same folder of `trigger-travis.sh`
 * Issue `sh trigger-travis.sh`
